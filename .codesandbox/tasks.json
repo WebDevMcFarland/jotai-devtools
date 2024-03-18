@@ -1,0 +1,103 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "lint": {
+      "name": "lint",
+      "command": "pnpm lint",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "pnpm lint:fix",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "pnpm test",
+      "runAtStart": false
+    },
+    "test:watch": {
+      "name": "test:watch",
+      "command": "pnpm test:watch",
+      "runAtStart": false
+    },
+    "test:coverage": {
+      "name": "test:coverage",
+      "command": "pnpm test:coverage",
+      "runAtStart": false
+    },
+    "test:ci": {
+      "name": "test:ci",
+      "command": "pnpm test:ci",
+      "runAtStart": false
+    },
+    "commitlint": {
+      "name": "commitlint",
+      "command": "pnpm commitlint",
+      "runAtStart": false
+    },
+    "lint-staged": {
+      "name": "lint-staged",
+      "command": "pnpm lint-staged",
+      "runAtStart": false
+    },
+    "compile": {
+      "name": "compile",
+      "command": "pnpm compile",
+      "runAtStart": false
+    },
+    "postcompile": {
+      "name": "postcompile",
+      "command": "pnpm postcompile",
+      "runAtStart": false
+    },
+    "prerelease": {
+      "name": "prerelease",
+      "command": "pnpm prerelease",
+      "runAtStart": false
+    },
+    "release": {
+      "name": "release",
+      "command": "pnpm release",
+      "runAtStart": false
+    },
+    "release:next": {
+      "name": "release:next",
+      "command": "pnpm release:next",
+      "runAtStart": false
+    },
+    "release:minor": {
+      "name": "release:minor",
+      "command": "pnpm release:minor",
+      "runAtStart": false
+    },
+    "release:patch": {
+      "name": "release:patch",
+      "command": "pnpm release:patch",
+      "runAtStart": false
+    },
+    "storybook": {
+      "name": "storybook",
+      "command": "pnpm storybook",
+      "runAtStart": false
+    },
+    "build-storybook": {
+      "name": "build-storybook",
+      "command": "pnpm build-storybook",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "pnpm prepare",
+      "runAtStart": false
+    }
+  }
+}
